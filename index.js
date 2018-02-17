@@ -22,7 +22,7 @@ function currentLine(array){
       var x = i + 1;
      output.push(` ${x}. ${array[i]}`)
       }
-    return 'The line is currently: ' + output.toString()
+    return 'The line is currently:' + output.toString()
   } else {
     return "The line is currently empty."
   }
