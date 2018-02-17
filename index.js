@@ -17,10 +17,10 @@ function nowServing(array){
 
 function currentLine(array){
   if (array.length > 0){
+    var line = "The line is currently:"
     for (let i = 0; i < array.length; i++){
       var x = i + 1;
-      var line = "The line is currently:"
-      line = line + x + ". " + array[i]
+      line = line + " " + x + ". " + array[i]
     }
     return `${line}`
   } else {
