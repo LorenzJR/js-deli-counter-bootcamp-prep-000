@@ -5,6 +5,7 @@ function takeANumber(array, name){
 }
 
 function nowServing(array){
+  if(array.length === 0;)
   
 }
 
