@@ -19,11 +19,10 @@ function currentLine(array){
   if (array.length > 0){
     for (let i = 0; i < array.length; i++){
       var x = i + 1;
-      var outputarray = []
-      outputarray.push[x] + "."
-      outputarray.push[array[i]]
+      var line = "The line is currently:"
+      line = line + x + ". " + array.[i]
     }
-    return `The line is currently: ${outputarray}`
+    return `The line is currently: ${line}`
   } else {
     return "The line is currently empty."
   }
