@@ -18,9 +18,14 @@ function nowServing(array){
 function currentLine(array){
   if (array.length > 0){
     for (let i = 0, i < array.length, i++){
-      
+      var x = i + 1;
+      var outputarray = []
+      outputarray.push[x] + "."
+      outputarray.push[array[i]]
     }
-
+    return `The line is currently: ${outputarray.toString()}`
+  } else {
+    
   }
   
 }
