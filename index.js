@@ -25,7 +25,7 @@ function currentLine(array){
     }
     return `The line is currently: ${outputarray.toString()}`
   } else {
-    return "The line is currenlty empty."
+    return "The line is currently empty."
   }
   
 }
