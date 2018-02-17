@@ -23,7 +23,7 @@ function currentLine(array){
       outputarray.push[x] + "."
       outputarray.push[array[i]]
     }
-    return `The line is currently: ${outputarray.toString()}`
+    return `The line is currently: ${outputarray}`
   } else {
     return "The line is currently empty."
   }
