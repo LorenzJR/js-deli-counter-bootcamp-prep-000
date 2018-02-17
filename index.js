@@ -5,7 +5,14 @@ function takeANumber(array, name){
 }
 
 function nowServing(array){
-  if(array.length === 0;)
+  if(array.length > 0){
+    var firstperson = array[0]
+    array.shift()
+    return `Currently serving ${firstperson}.`
+    
+  } else {
+    return "There is nobody waiting to be served!"
+  }
   
 }
 
